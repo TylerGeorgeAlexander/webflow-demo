@@ -31,7 +31,7 @@ To begin the WordPress to Webflow migration process, I followed these steps:
      - Pubdate - Plain Text
      - Creator/text - Plain Text
      - Encoded/0/_cdata - Rich Text
-   - The encoded data is set as rich text because it contains a paragraph element as well as an image with the WordPress image hosting link with src.
+   - The encoded data is set as **rich text** because it contains a **paragraph element** as well as an **image element** with the WordPress image hosting link with src.
    - ![Field Configuration](image-4.png)
 ---
    
