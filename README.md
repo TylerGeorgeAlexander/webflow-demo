@@ -53,6 +53,16 @@ Table of contents:
    - SSL Certificate Setup in Webflow
    - Developing a Robust Backup and Contingency Plan
    - Conclusion: Estimating Migration Timeframes and Seeking Professional Assistance
+
+8. [**Expected Downtime - DNS and Domain Configuration**](#expected-downtime---dns-and-domain-configuration)
+   - Understanding Downtime during DNS and Domain Configuration
+   - Factors Influencing DNS Propagation Time
+   - Strategies for Minimizing Service Interruptions
+   - Conducting Pre-Switch Testing and Validation
+   - Ensuring Smooth Transition to Webflow
+   - Conclusion: DNS and Domain Transition Best Practices
+
+
 ---
 
 ## Introduction
@@ -199,3 +209,13 @@ Migrating a WordPress website to Webflow and launching it can vary in terms of t
 The exact time it takes to migrate and launch a WordPress website on Webflow can vary from a few days to several weeks, depending on the factors mentioned above. To minimize downtime, consider doing the migration and testing on a staging site or subdomain before making the final switch.
 
 Additionally, it's recommended to work with experienced professionals who are familiar with both WordPress and Webflow to ensure a smooth migration and minimize any potential issues.
+
+## Expected Downtime - DNS and Domain Configuration
+
+The overall process of migrating from WordPress to Webflow can indeed be extensive and time-consuming, involving several steps such as assessing the website's complexity, transferring content, recreating design elements, and comprehensive testing. However, the actual downtime experienced during the final 'go-live' phase—when you switch your domain's DNS settings to point to the new Webflow site—is relatively brief.
+
+This downtime is primarily due to DNS propagation, which is the time taken for DNS servers across the internet to update with the new information of your Webflow site. This process typically takes a few hours to 48 hours. During this period, some visitors may be directed to your old WordPress site, while others may see the new Webflow site, depending on their location and their DNS server's update status.
+
+The key to minimizing this downtime is thorough preparation and testing in a staging environment or using a subdomain. By ensuring everything is functioning correctly on Webflow before making the final switch, you can make the transition as smooth as possible and reduce the duration of any potential service interruptions.
+
+[The Webflow docs - Manually connect a custom domain](https://university.webflow.com/lesson/manually-connect-a-custom-domain?topics=hosting-code-export)
