@@ -6,7 +6,45 @@
 
 "If you add a CMS site plan or Standard Ecommerce site plan to a site within your Workspace, you can invite up to 3 content editors to your site. If you add a Business site plan or Ecommerce Plus or Advanced site plan to a site within your Workspace, you can invite up to 10 content editors to your site."
 
+Table of contents:
+
+1. [**Introduction**](#introduction)
+   - Adding Content Editors to Your Site
+   - Viewing Teammates in the Designer
+
+2. [**Keeping Link Structure from WP Site**](#keeping-link-structure-from-wp-site)
+   - Webflow CMS Collection Menu
+   - Projects Template
+
+3. [**Brief Guide to Recreating Colossalmedia's Website Using Webflow's CMS Collections**](#brief-guide-to-recreating-colossalmedias-website-using-webflows-cms-collections)
+   1. Create CMS Collections
+   2. Design CMS Templates
+   3. Set Up Collection Pages
+   4. Populate the Collections
+   5. Create Navigation
+   6. Publish Your Website
+
+4. [**Notes for Creating Something Similar with Current DEMO Link**](#notes-for-creating-something-similar-with-current-demo-link)
+   - Current DEMO link
+   - Newport Free Photography Template
+
+5. [**WordPress to Webflow Migration: A Step-by-Step Guide**](#wordpress-to-webflow-migration-a-step-by-step-guide)
+   - Migration Guidance from Wordpress to Webflow
+   - Exporting Content from WordPress
+   - Importing Content into Webflow
+
+6. [**Key Features and Functionalities: A Brief Overview**](#key-features-and-functionalities-a-brief-overview)
+   - Contact Form for Service Inquiries
+   - Personalized Content Suggestions for Visitors
+   - Search and Filter Features for Case Studies and Field Notes
+   - Responsive Web Design
+   - Video Hosting and Gallery Capabilities
+   - Newsletter Integration
+   - Google Analytics Integration
+
 ---
+
+## Introduction
 
 **Adding Content Editors to Your Site:**
 
