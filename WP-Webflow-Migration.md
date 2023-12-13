@@ -40,3 +40,25 @@ To begin the WordPress to Webflow migration process, I followed these steps:
 ---
    - ![Slug Mapping](image-5.png)
 ---
+
+
+From this point I created a backup for content.
+
+![Alt text](image-6.png)
+
+It takes a minute to load.
+
+![Alt text](image-7.png)
+
+Then it shows a success Import Complete.
+
+![Alt text](image-8.png)
+
+We are now able to work with the new CMS Collections similar to Field Notes, Works, Photos, Blog Posts, etc.
+
+![Alt text](image-9.png)
+
+The next step would be to build out the new page and/or CMS template to achieve our intended outcome. 
+Additional considerations would include potentially reworking the Rich text for image src links.
+Especially if they're moved from the current domain hosting to an external server.
+We may be able to parse and replace the `Encoded/0/_cdata - Rich Text` easier in the initial `demo-colossal-media.wordpress.2023-12-13.000.xml` file, however it's hard to say depending on how much content is exported. There may also be additional steps taken for video media.
