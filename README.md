@@ -4,6 +4,44 @@
 
 **Important Note:** Webflow is primarily designed as a low to no-code platform. It appears to handle version control through a feature that enables reverting to previous states. Please take into consideration potential limitations on the number of collaborators (ranging from 0 to 10), and be prepared for a distinct collaboration experience compared to GitHub or other Git-based platforms.
 
+"If you add a CMS site plan or Standard Ecommerce site plan to a site within your Workspace, you can invite up to 3 content editors to your site. If you add a Business site plan or Ecommerce Plus or Advanced site plan to a site within your Workspace, you can invite up to 10 content editors to your site."
+
+---
+
+**Adding Content Editors to Your Site:**
+
+Depending on the site plan you choose within your Workspace, you can invite a specific number of content editors to collaborate on your site. Here are the limits:
+
+- With a CMS site plan or Standard Ecommerce site plan, you can invite up to 3 content editors.
+
+- If you opt for a Business site plan or Ecommerce Plus or Advanced site plan, you can invite up to 10 content editors.
+
+For more details on how to invite content editors, please refer to this [Webflow University lesson](https://university.webflow.com/lesson/invite-content-editors?topics=site-settings).
+
+---
+
+**Viewing Teammates in the Designer:**
+
+To see which of your teammates are actively working on the site alongside you in the Designer, follow these steps:
+
+1. At the top of the Designer, you will notice avatars representing your teammates. Hover over an avatar to reveal their full names and their current activities in the site (whether they are designing or editing), as well as the specific page they are working on.
+
+2. If a number appears on an avatar, click on it to find out which pages your teammates are currently working on.
+
+3. You can also click directly on a teammate's avatar to navigate to the element they have selected.
+
+Additionally:
+
+- You have the option to update your own avatar (profile picture) in your account profile.
+
+- When you are the sole person working on a page, your teammates' avatars will display a number (e.g., 2, 3, 4, etc.) to indicate the number of other teammates currently active on different pages within the site.
+
+For more information on collaboration in the Webflow Designer, please refer to this [Webflow University lesson](https://university.webflow.com/lesson/collaborate-in-the-webflow-designer?topics=layout-design).
+
+---
+
+## Keeping Link Structure from WP Site
+
 In the CMS Collections tab, you can configure a similar link structure with slugs, much like Colossalmedia's site.
 
 The pattern observed on their work page is typically one of two types:
@@ -48,7 +86,7 @@ By adhering to these guidelines, you can construct a Webflow website that mirror
 
 ---
 
-## Notes for Creating Something Similar with Current DEMO Link
+### Notes for Creating Something Similar with Current DEMO Link
 
 You can check out the current demo for reference by visiting the following link:
 
@@ -57,6 +95,8 @@ You can check out the current demo for reference by visiting the following link:
 Newport is a free photography template, expertly crafted to closely resemble an existing website.
 
 For enhanced content management, a new CMS called `Work` can be introduced and linked with unique slugs. In a similar vein, additional CMS collections such as `case-studies` or `field notes` can be developed for diverse content categorization.
+
+## WordPress to Webflow Migration: A Step-by-Step Guide
 
 Migration guidance from Wordpress to Webflow is detailed here: 
 [Wordpress to Webflow Migration Guide](https://university.webflow.com/lesson/migrate-from-wordpress-to-webflow-cms?topics=cms-dynamic-content).
