@@ -41,24 +41,26 @@ To begin the WordPress to Webflow migration process, I followed these steps:
    - ![Slug Mapping](image-5.png)
 ---
 
+## Import the 14 Test Items - Next steps
 
-From this point I created a backup for content.
+### Creating a Backup for Content
 
-![Alt text](image-6.png)
+1. **Backup Process**:
+   - To ensure data security, I initiated a backup for the content.
+   - ![Backup](image-6.png)
+   - The process may take a minute to complete.
+   - ![Loading](image-7.png)
+   - Upon completion, a success message, "Import Complete," is displayed.
+   - ![Success](image-8.png)
 
-It takes a minute to load.
+2. **Working with CMS Collections**:
+   - With the backup in place, we can now work with the new CMS Collections, such as Field Notes, Works, Photos, Blog Posts, and more.
+   - ![CMS Collections](image-9.png)
 
-![Alt text](image-7.png)
+3. **Building New Pages and Templates**:
+   - The next crucial step involves building out the new page and/or CMS template to achieve our intended outcome.
 
-Then it shows a success Import Complete.
-
-![Alt text](image-8.png)
-
-We are now able to work with the new CMS Collections similar to Field Notes, Works, Photos, Blog Posts, etc.
-
-![Alt text](image-9.png)
-
-The next step would be to build out the new page and/or CMS template to achieve our intended outcome. 
-Additional considerations would include potentially reworking the Rich text for image src links.
-Especially if they're moved from the current domain hosting to an external server.
-We may be able to parse and replace the `Encoded/0/_cdata - Rich Text` easier in the initial `demo-colossal-media.wordpress.2023-12-13.000.xml` file, however it's hard to say depending on how much content is exported. There may also be additional steps taken for video media.
+4. **Considerations for Rich Text**:
+   - Additional considerations include potentially reworking the Rich Text for image src links, especially if they're moved from the current domain hosting to an external server.
+   - We may explore parsing and replacing the `Encoded/0/_cdata - Rich Text` more efficiently in the initial `demo-colossal-media.wordpress.2023-12-13.000.xml` file. However, this depends on the volume of content exported.
+   - Special attention may be required for video media as well.
