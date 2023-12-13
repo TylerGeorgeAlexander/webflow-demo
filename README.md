@@ -32,6 +32,9 @@ Table of contents:
    - Migration Guidance from Wordpress to Webflow
    - Exporting Content from WordPress
    - Importing Content into Webflow
+   - Small-Scale Test Migration of Blog Posts (XML to CSV)
+   - [WordPress to Webflow Migration Guide](WP-Webflow-Migration.md)
+
 
 6. [**Key Features and Functionalities: A Brief Overview**](#key-features-and-functionalities-a-brief-overview)
    - Contact Form for Service Inquiries
@@ -161,6 +164,12 @@ Migration guidance from Wordpress to Webflow is detailed here:
 [Wordpress to Webflow Migration Guide](https://university.webflow.com/lesson/migrate-from-wordpress-to-webflow-cms?topics=cms-dynamic-content).
 
 WordPress primarily exports content in XML format, but there are numerous plugins that allow exporting in CSV format for specific content types and fields. Despite some plugins being outdated, there are various alternatives, including premium options. Once exported, the CSV files can be effortlessly imported into Webflow.
+
+### A Quick Walkthrough on Small-Scale Test Migration of Blog Posts XML to CSV
+
+If you're interested in a small-scale test migration of blog posts from WordPress to Webflow:
+
+[WordPress to Webflow Migration Guide](WP-Webflow-Migration.md)
 
 ## Key Features and Functionalities a brief overview:
 
