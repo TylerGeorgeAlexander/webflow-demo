@@ -10,6 +10,8 @@ The pattern observed on their work page is typically one of two types:
 
 The Projects template may be the best option to closely emulate the original site's design.
 
+![Projects template](projects-template.png)
+
 ## Brief Guide to Recreating Colossalmedia's Website Using Webflow's CMS Collections
 
 1. **Create CMS Collections:**
